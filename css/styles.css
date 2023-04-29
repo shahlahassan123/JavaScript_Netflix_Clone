@@ -1,0 +1,407 @@
+
+
+/* NAV BAR */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    overflow-x: hidden;  
+}
+
+nav{
+    background-color: #000000;
+}
+
+.logo{
+    width: 8rem;
+    /* height: 4rem; */
+}
+
+.navBar,.navbar-links{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.left,.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+
+}
+
+.navbar-links{
+    /* justify-content: space-between; */
+    padding: 1rem 2rem;
+    display: none;
+}
+
+.navbar-links div{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.navbar-links.active{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.browse.inactive{
+    display: none;
+}
+
+#home-link , #tv-link, #movies-link,#landing-link{
+    text-decoration: none;
+    color: white
+}
+
+.btn-secondary,.btn-secondary:focus ,.dropdown-menu{
+    color: #fff;
+    background-color: black;
+    border-color: black;
+   
+}
+.sign-out{
+    /* border: 2px solid #ffffff;
+    padding: 0.5rem;
+    margin:0; */
+    /* display: none; */
+    background-color: #000000;
+    color:#ffffff
+}
+
+.dropdown-menu.show:hover{
+    background-color: #000000;
+
+}
+
+.dropdown-menu{
+    border: 1px solid white;
+    padding: 0;
+}
+
+
+
+.sign-out.active{
+    display: block;
+    padding: 0.5rem;
+    margin:0;
+    transition : all 3s ease-in-out;
+}
+/* .searchBar{ */
+    /* margin-left: 34rem; */
+    /* background: #000000
+} */
+
+/* .searchBar button img{
+    padding: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    background-color: #000000;
+    
+}
+
+button.searchBtn{
+    background: #000000;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.searchInput{
+    width: 14rem;
+    height:2rem;
+    padding: 0.5rem;
+    margin: 1.1rem 0;
+    background-color: #000000;
+    color: grey;
+    border: 2px solid #ffffff;
+    display: none;
+
+}
+
+.searchInput.active{
+    display: inline;
+} */
+
+.profileIcon{
+    padding: 2rem;
+    /* width: 2rem; */
+    cursor: pointer;
+}
+
+.mobileNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.mobileNav > img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+.dropdown:active{
+    border-color: #000000;
+}
+
+.btn-secondary:hover,.btn-secondary:active  {
+    /* color: #fff; */
+    background-color: #000000;
+    border-color: black;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.dropdown-menu.show{
+    background-color: #000000;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-menu.show:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+/* BANNER SECTION */
+
+.bannerImgs {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    aspect-ratio: auto 1280 / 720;
+}
+
+
+.banner-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-title,.banner-desc{
+    color:white;  
+    margin: 2rem;
+    display: block;
+}
+
+.banner-title{
+    position: absolute;
+    top:25rem;
+    left: 3rem;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.banner-title + .banner-desc{
+    position: absolute;
+    top:30rem;
+    left: 3rem;
+    font-size: 1.5vw;
+    float: left;
+}
+
+
+/* MOVIE POSTERS */
+
+.row-title{
+    margin-left: 1rem;
+}
+
+
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 160%; */
+
+}
+
+.row{
+    margin: 1rem;
+    overflow: auto;
+    
+}
+
+.row-posters-grid{
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-left: 1rem;
+ 
+   
+ 
+
+}
+
+.movie-poster{
+    width: 40%;
+    max-width: 20%;
+    height: 20rem;
+    padding:0 1rem;
+     margin-right: 0.5rem;     
+}
+
+.img-container-tv{
+    width: 20rem;
+    /* max-width: 20%; */
+    /* height: 9rem;  */
+    height: 19rem;  
+    padding:0 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);   
+} 
+
+
+
+.img-container-tv >img{
+   
+    grid-column: 1/span 4;
+    grid-row: 1/span 4;
+    aspect-ratio: 1/1;
+}
+
+.img-fluid:hover{
+    transform: scale(1.09);
+    transition: transform linear 300ms;
+    cursor: pointer;
+}
+
+.movie-trailer{
+    grid-column: 1/span 4;
+    grid-row: 1/span 4;
+    height: 105%;
+    width: 110%;
+    z-index: 10;
+    right: 1rem;
+    position: relative;
+    
+}
+
+h6.movie-title-name{
+    display:none
+}
+
+.hide{
+    display: none;
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon{
+  
+    margin: 1rem;
+    /* background-color: #000000; */
+    color: white;
+}
+
+
+
+.video-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*   */
+
+.row-title::first-letter{
+    font-size: 2.5rem;
+}
+
+::selection{
+    color: #fff;
+    background: lightgray;
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+   
+    .banner-title{
+        top:13rem;
+       
+    }
+
+    .banner-title + .banner-desc{
+        top: 16rem;
+      
+    }
+}
+
+/* desktop vlaidation */
+@media (min-width : 801px) {
+
+    .navbar-links{
+        /* justify-content: space-between; */
+       
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobileNav{
+        display: none;
+    }
+
+
+
+    .movie-poster{
+        max-width: 20%;
+
+        
+    }
+
+    
+
+    .banner-title{
+       
+        top:26rem;
+        left: 3rem;
+       
+        
+    }
+    
+    .banner-title + .banner-desc{
+       
+        top:30rem;
+        left: 3rem;
+       
+        
+    }
+
+    .banner-desc{
+        font-size: 2rem;
+    }
+    
+}

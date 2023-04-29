@@ -1,0 +1,408 @@
+
+body{
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: transparent;
+}
+
+.signIn{   
+    margin: 1rem;
+}
+
+.sign-in-link,.get-started-link{
+    text-decoration: none;
+    color:#fff
+
+}
+
+.navBanner{
+    padding: 2rem;
+    background-image: url("../images/Netflix_background.jpeg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+}
+
+/* MAIN SECTION STARTS */
+    /* ENJOY ON YOUR TV */
+
+    h1{
+        font-size: 1.75rem; 
+    }
+
+    h2{
+        font-size: 1.5rem;
+        margin-bottom: 3rem; 
+    }
+
+    h3{
+        font-size: 1rem; 
+    }
+    .second-section .section-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 4rem;
+        
+    }
+
+    .section-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2-container{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+
+    .second-section .section-container .left-side{
+        padding-top: 13%;
+        padding-right: 2%;
+        padding-left: 4%;
+        /* margin-bottom: 2rem; */
+    }
+
+    .left-side{
+        margin: auto;
+    }
+    .second-section .section-container .left-side h1{
+        color: white;
+    }
+    .second-section .section-container .left-side h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    }
+
+    /* h1+h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    } */
+
+
+    .second-section .section-container .right-side{
+        overflow: hidden;
+        position: relative;
+        width: 80%;
+        height: 500px;
+    }
+    .second-section .section-container .right-side img{
+        position: absolute;
+        width: 100%;
+    }
+    .second-section .section-container .right-side .first-video{
+        margin-left: 13%;
+        margin-top: 16%;
+        width: 73%;
+    }
+    /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+    .second-section .section2-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0px 80px;
+        padding-bottom: 90px;
+    }
+    .second-section .section2-container .left-side img{
+        width: 100%;
+    }
+    .second-section .section2-container .left-side .img-box-container{
+        border: 2px solid rgba(255,255,255,.25);
+        background-color: black;
+        border-radius: 10px;
+        width: 60%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -22%;
+    }
+    .second-section .section2-container .left-side .img-box-container .img-box{
+        width: 15%;
+    }
+    .second-section .section2-container .left-side .img-box-container p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .second-section .section2-container .left-side .img-box-container p a{
+        text-decoration: none;
+    }
+    .second-section .section2-container .left-side .img-box-container .gif{
+        width: 3em;
+        height: 3em;
+        position: absolute; 
+        right: 0;
+    }
+    .second-section .section2-container .right-side{
+        padding-top: 13%;
+        padding-right: 2%;
+        /* width: 50%; */
+    }
+    .second-section .section2-container .right-side h1{
+        color: white;
+    }
+    .second-section .section2-container .right-side h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    }
+
+    .img-box + p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+
+    /*WATCH EVERY WHERE*/
+    .second-section .section-container .right-side .second-video{
+        margin-left: 19%;
+        margin-top: 8%;
+        width: 61%;
+    }
+    /*CREATE PROFILE FOR KIDS*/
+    .second-section .section2-container .left-side img{
+        width: 100%;
+    }   
+.firstSection{
+    padding: 3rem;
+}
+
+.firstSection #title1, h1{
+    font-size: 1.75rem;
+}
+
+.firstSection #title2 , h2{
+    font-size: 1.25rem;
+}
+
+.firstSection #emailLabel{
+    font-size: 1rem;
+}
+
+
+
+.left,.right{
+    background-color: transparent;
+}
+
+.getStarted{
+    margin: 1rem;
+}
+
+
+
+/* .emailInput[data-error]::after{
+    content: attr(data-error);
+    color: #ffa00a
+} */
+
+ .validation{
+    color: #ffa00a;
+    font-weight:500 ;
+    display: none;
+}
+
+.questions{
+    padding: 2rem;
+    border-top: 3px solid gray; 
+    display: grid;
+    place-items: center;
+    /* width: 100%; */
+
+}
+
+.faqSection{
+    width: 100%;    
+}
+
+.faq-title{
+    margin: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.faq{
+    background-color: #303030;
+    width: 100%;
+}
+
+.question{
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #303030;
+    color: #fff;
+    outline: none;
+}
+
+
+.question:hover{
+    outline: none;
+    cursor: pointer;
+}
+
+.plusButton,.crossButton{
+    font-weight: bold;
+}
+
+.crossButton{
+    display: none;
+}
+
+.crossButton.active{
+    display: inline;
+}
+
+.plusButton.inactive{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.answer{
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #000000;
+    display: none;
+
+}
+
+.answer.active{
+    display: block;
+}
+
+.signInfooter{
+    background-color: #000000;
+    padding-top: 1rem;
+    display: grid;
+    place-items: center;
+
+}
+
+.phone{
+    margin-left: 5rem;
+   
+}
+.email+input{
+   width: 100%;
+}
+
+.lastSection{
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+/* .emailInputLast{
+    width: 80%;
+} */
+
+.emailInputLast + p , .emailInput + p{
+    font-size: medium;
+    margin: 0.2rem;
+    z-index: 10;
+}
+
+.lastTitles + .email{
+    margin-top: 0.2rem;
+
+}
+
+.phone-link,.phone-link:hover{
+    text-decoration: none;
+    color: #ffffff; 
+
+}
+
+.phone-link{
+color: gray;
+padding: 1rem
+}
+
+@media (min-width:1000px) {
+
+    .navBanner{
+        height: 100vh;
+    }
+
+    .firstSection{
+        padding: 9rem;
+    }
+
+    .firstSection #title1 , h1{
+        font-size: 2.5rem;
+        
+    }
+    
+    .firstSection #title2 , h2{
+        font-size: 2rem;
+    }
+    
+    .firstSection #emailLabel{
+        font-size: 1.75rem;
+    }
+    
+    .emailInput{
+        /* width: 70%; */
+        margin: auto;  
+    }
+
+    .second-section .section-container{
+        padding: 0px 80px;
+        padding-bottom: 90px
+
+    }
+    /* .second-section .section-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0;
+        
+    } */
+
+    .section-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section2-container{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .second-section .section2-container .right-side{
+        width: 50%;
+    }
+
+    .second-section .section-container .right-side{
+        width: 80%;
+        /* height: auto; */
+        margin-top: 3rem;
+    }
+
+
+}

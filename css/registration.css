@@ -1,0 +1,189 @@
+.logo-sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.netflix-logo{
+    width: 8rem;
+    height: 5rem;
+    padding-left: 1rem;
+}
+
+.right{
+    text-align: center;
+}
+.sign-in-reg{
+    border: none;
+    background-color: #fff;
+    font-size: 1.3rem;
+    margin: 1.5rem;
+}
+
+.sign-in-link, .nextbtn , .sign-in-link:hover{
+    text-decoration: none ;
+    color: #000;
+}
+
+.nextlink{
+    color:#fff
+}
+
+.nextlink:hover{
+   text-decoration: none;
+   color: white;
+}
+
+.form{
+    margin-top: 4rem;
+    display: grid;
+    place-items: center;
+}
+
+.signIn-form{
+    margin: 2rem;
+}
+/* .step-title,.para{
+    font-weight: 300;
+} */
+
+h2 + h5, .step-title{
+    font-weight: 300;
+}
+
+.form-group.email{
+    margin-top: 1rem;
+}
+
+
+/* .form-control{
+    width: 70%;
+} */
+
+.next,.next:hover, .next:active{
+    background-color: #E50914;
+}
+
+
+.form-control + .password-validation{
+    display: none;
+    color: #ffa00a;
+    font-weight:300 ;
+}
+
+.password-label::after{
+    content: " *";
+    color: #000;
+
+}
+
+
+/* Registraion Page 2 */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.tick-icon{
+    color: #E50914;
+
+}
+.title2,.plan-title{
+    margin: 1rem;
+}
+
+.circle-icon + .h6-title,.circle-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-icon{
+    color: #E50914;
+    /* margin: 1rem; */
+    margin-right: 1rem;
+}
+
+.line{
+    font-size: 1.3rem;
+}
+
+.tick-line{
+    margin-bottom: 2rem;
+}
+
+/* Registration Page 3 */
+
+/* .plan-option-titles,.feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .feature{
+    display: flex;
+    flex-direction: row;
+} */
+
+.containerp3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.plan-table{
+    width: 80%;
+    margin: auto;
+}
+
+td, .feature{
+    padding: 1rem;
+    padding-left: 4rem ;
+    border-bottom:1px solid grey ;
+}
+
+.nextp3{
+    margin-top:2rem;
+    padding: 1rem 10rem;
+    margin-bottom: 2rem;
+}
+
+#box{
+    width: 10rem;
+    height: 5rem;
+    padding: 1rem;
+    background-color: #E50914;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* .fa-caret-down{
+    margin-left: 5rem;
+    color: #E50914;
+    display: none;
+} */
+
+td,.check-icon-p3{
+    color:#737373;
+
+}
+
+#box.active{
+    /* color: #E50914; */
+    display: block;
+    opacity: 1;
+}
+
+.enabled{
+    color:#E50914
+}
