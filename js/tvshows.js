@@ -1,4 +1,5 @@
 //Showing only TV Shows
+import axios from 'axios';
 
 const API_KEY = "d7e10b4437e0e449d46c170de6d598f4"
 const IMG_URL = "https://image.tmdb.org/t/p/original";
