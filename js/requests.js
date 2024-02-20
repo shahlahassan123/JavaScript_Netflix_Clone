@@ -1,8 +1,13 @@
 
-import axios from 'axios';
+// import axios from 'axios';
+
+const axios = window.axios;
+
+
 
 const API_KEY = "d7e10b4437e0e449d46c170de6d598f4"
 const YOUTUBE_API_KEY = "AIzaSyBpuThUpEN9Jiq4XpiyrTPbDraAnOb9Sac"
+
 // const new_api = "AIzaSyB9A4Hz9R1P0GEeljojgkIiYn1vvZUL534" --alternate youtube api key
 const IMG_URL = "https://image.tmdb.org/t/p/original";
 const bannerTitle = document.querySelector(".banner-title")
